@@ -81,7 +81,7 @@ streamlit run app.py
 ```
 Visit the provided local URL (usually http://localhost:8501) in your web browser to access the app. <br>
 
-or directly go to deployed server url : https://traffic-sign-recognition-44.streamlit.app/
+or directly go to deployed server url : https://traffic-sign-recognition-00.streamlit.app/
 
 ## Contributing<a name="contributing"></a>
 

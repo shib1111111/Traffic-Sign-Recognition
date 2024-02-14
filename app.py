@@ -33,7 +33,7 @@ if uploaded_file is not None:
             image = Image.open(uploaded_file)
             label = predict_label(image, model)
             if label is not None:
-                st.image(image, caption='Uploaded Image', use_column_width=800)
+                st.image(image, caption='Uploaded Image', use_column_width=500)
                 st.markdown(f'<style> .predicted-label {{ font-size: 25px; font-weight: bold; color: Yellow; }} </style>', unsafe_allow_html=True)
                 st.write(f'<span><p>Predicted label:</p><p class="predicted-label">{label}</p></span>', unsafe_allow_html=True)
     except Exception as e:
